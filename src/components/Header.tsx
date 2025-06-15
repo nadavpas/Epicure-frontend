@@ -2,8 +2,14 @@ import logo from "../assets/logo.svg";
 import bag from "../assets/bag.svg";
 import search from "../assets/search.svg";
 import user from "../assets/user.svg";
+import { useState } from "react";
 import "../styles/Header.scss";
+
 function Header() {
+   const [showSearch,setShowSearch] = useState(false);
+    const toggleSearch = ()=>{
+        setShowSearch((prev) => !prev);
+    }
   return (
     <header>
         <div className="left-section">
@@ -17,7 +23,10 @@ function Header() {
           </nav>
         </div>
         <div className="right-section">
-          <img src={search} alt="search-icon" />
+            {showSearch && (
+                <input type="text" placeholder="|Search for restaurant, cuisine, chef" />
+            )}
+          <img src={search} alt="search-icon" onClick={toggleSearch}/>
           <img src={user} alt="user-icon" />
           <img src={bag} alt="bag-icon" />
         </div>
