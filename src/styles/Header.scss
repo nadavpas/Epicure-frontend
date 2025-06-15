@@ -1,43 +1,53 @@
 header {
+  height: 64px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 12px 40px;
   border-bottom: 1px solid #f2f2f2;
   background-color: white;
-  gap: 30vw;
-  top: 0;
+  gap: 60vw;
+  top: 2vh;
   position: fixed;
-  left: 0;
+  left: 1vw;
   right: 0;
 }
-.left-section{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
 }
-button{
-    background-color: white;
-    font-family: Helvetica, sans-serif;
+button {
+  background-color: white;
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1.92px;
 }
-.logo-section{
-    display: flex;
-    align-items: center;
-    gap: 1vw;
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  img{
+    width: 32.93px;
+    height: 32px;
+    top: 1.5px;
+  }
 }
-.right-section{
-    display: flex;
-    align-items: center;
-    gap: 2vw;
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
 }
-.logo-text{
-    font-family: Helvetica,sans-serif;
-    font-size: 23px;
-    font-weight: 20;
+.logo-text {
+  font-family: Helvetica;
+  font-size: 27px;
+  font-weight: 200;
+  line-height: 100%;
+  letter-spacing: 1.35px;
 }
-nav{
-    display: flex;
-    gap: 1vw
+nav {
+  display: flex;
+  gap: 32px;
 }
-
