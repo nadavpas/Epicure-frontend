@@ -9,18 +9,30 @@ h3{
 .container{
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-image:url('../assets/hero.svg');
+    width: 1440px;
+    height: 696px;
+    top: 64px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
     flex-direction: column;
     width: 776px;
     height: 221px;
+    background-color: #ffffffa8;
 }
 .search-section{
     display: flex;
     align-items: center;
     gap: 1vw;
     border: 1px solid  black;
+    
     input{
         width: 505px;
         height: 48px;
         border: 0;
+        background-color: #ffffffa8;
     }
 }
