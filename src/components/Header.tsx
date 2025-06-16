@@ -23,14 +23,21 @@ function Header() {
         </nav>
       </div>
       <div className="right-section">
-        {showSearch && (
-          <input
-            className="search-box"
-            type="text"
-            placeholder="|Search for restaurant, cuisine, chef"
+        <div className="search-section">
+          {showSearch && (
+            <input
+              className="search-box"
+              type="text"
+              placeholder="|Search for restaurant, cuisine, chef"
+            />
+          )}
+          <img
+            src={search}
+            alt="search-icon"
+            className="search-icon"
+            onClick={toggleSearch}
           />
-        )}
-        <img src={search} alt="search-icon" onClick={toggleSearch} />
+        </div>
         <img src={user} alt="user-icon" />
         <img src={bag} alt="bag-icon" />
       </div>

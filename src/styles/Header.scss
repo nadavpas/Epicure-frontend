@@ -6,7 +6,7 @@ header {
   padding: 12px 40px;
   border-bottom: 1px solid #f2f2f2;
   background-color: white;
-  gap: 60vw;
+  gap: 50vw;
   top: 2vh;
   position: fixed;
   left: 1vw;
@@ -16,6 +16,21 @@ header {
   display: flex;
   align-items: center;
   gap: 1vw;
+}
+.search-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: absolute;
+  padding-right: 3vw;
+  img {
+    position: absolute;
+  }
+  input {
+    position: absolute;
+    width: 410px;
+    height: 41px;
+  }
 }
 button {
   background-color: white;
@@ -29,7 +44,7 @@ button {
   display: flex;
   align-items: center;
   gap: 1vw;
-  img{
+  img {
     width: 32.93px;
     height: 32px;
     top: 1.5px;
@@ -50,7 +65,4 @@ button {
 nav {
   display: flex;
   gap: 32px;
-}
-.search-box{
-    position:relative;
 }
