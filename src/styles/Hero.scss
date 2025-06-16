@@ -1,0 +1,26 @@
+h3{
+    font-family:Helvetica;
+    font-weight: 200;
+    font-size: 27px;
+    letter-spacing: 1.97px;
+    width: 402px;
+    height: 80px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 776px;
+    height: 221px;
+}
+.search-section{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    border: 1px solid  black;
+    input{
+        width: 505px;
+        height: 48px;
+        border: 0;
+    }
+}
