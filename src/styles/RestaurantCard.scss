@@ -1,10 +1,16 @@
 .info{
-    background-color: orange;
-    background-color: color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f4ea;
+    width: 26.32vw;
+    height: 169px;
+    gap: 8px;
 }
 .container{
     display: flex;
     flex-direction: column;
+    width: 26.32vw;
 }
 h3{
     font-family: Helvetica;
@@ -13,6 +19,7 @@ h3{
     line-height: 47px;
     letter-spacing: 2.67px;
     margin: 0px;
+    margin-top: 18px;
 }
 h4{
     font-family: Helvetica;
