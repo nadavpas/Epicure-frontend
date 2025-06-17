@@ -1,5 +1,10 @@
 .info{
     background-color: orange;
+    background-color: color;
+}
+.container{
+    display: flex;
+    flex-direction: column;
 }
 h3{
     font-family: Helvetica;
@@ -7,6 +12,7 @@ h3{
     font-size: 40px;
     line-height: 47px;
     letter-spacing: 2.67px;
+    margin: 0px;
 }
 h4{
     font-family: Helvetica;
@@ -14,4 +20,11 @@ h4{
     font-weight: 200;
     line-height: 30px;
     letter-spacing: 1.97px;
+    margin: 0px;
+}
+h5{
+    margin: 0px;
+}
+img{
+    
 }
