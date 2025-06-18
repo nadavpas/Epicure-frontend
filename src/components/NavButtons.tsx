@@ -1,3 +1,4 @@
+import '../styles/NavButtons.scss'
 
 function NavButtons(){
     return(
