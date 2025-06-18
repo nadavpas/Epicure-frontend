@@ -4,6 +4,7 @@ import Rating from "./Rating";
 interface RestaurantProps {
   chef: string;
   restaurant: string;
+  key: string;
   // image: string
 }
 function RestaurantCard({ chef, restaurant }: RestaurantProps) {

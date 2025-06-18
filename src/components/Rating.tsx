@@ -10,7 +10,7 @@ function Rating({rating} : RatingProps) {
         const isFull = i + 1 <= rating;
         return (
           <>
-            {isFull? (<Star fill={fill}/>) : (<Star fill={'none'}/>)}
+            {isFull? ( <Star fill={fill} key={i}/>) : (<Star fill={'none'} key={i}/>)}
           </>
         );
       })}

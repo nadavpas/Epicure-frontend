@@ -1,10 +1,8 @@
+import "./App.css";
+import Popular from "./components/Popular";
 
-import './App.css'
-import RestaurantCard from './components/RestaurantCard'
 function App() {
-  return (
-    <RestaurantCard chef='Ran Shmueli' restaurant='Claro'/>
-  )
+  return <Popular />;
 }
 
-export default App
+export default App;
