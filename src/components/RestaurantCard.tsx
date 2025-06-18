@@ -13,7 +13,7 @@ function RestaurantCard({ chef, restaurant }: RestaurantProps) {
       <div className="info">
         <h3>{restaurant}</h3>
         <h4>{chef}</h4>
-        <Rating/>
+        <Rating rating={3}/>
       </div>
     </div>
   );
