@@ -1,0 +1,21 @@
+.popular-restaurants{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    button{
+        display:flex;
+        flex-direction: row-reverse;
+        background-color: white;
+    }
+}
+h2{
+    font-family:Helvetica;
+    font-weight: 200;
+    font-size: 30px;
+    
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    gap:1vw;
+}
