@@ -1,7 +1,5 @@
-import logo from "../assets/logo.svg";
-import bag from "../assets/bag.svg";
-import search from "../assets/search.svg";
-import user from "../assets/user.svg";
+
+import { userIcon,searchIcon,bagIcon,logoIcon } from "../assets/icons";
 import { useState } from "react";
 import "../styles/Header.scss";
 
@@ -14,7 +12,7 @@ function Header() {
     <header>
       <div className="left-section">
         <div className="logo-section">
-          <img src={logo} alt="logo-icon" />
+          <img src={logoIcon} alt="logo-icon" />
           <span className="logo-text">EPICURE</span>
         </div>
         <nav>
@@ -32,14 +30,14 @@ function Header() {
             />
           )}
           <img
-            src={search}
+            src={searchIcon}
             alt="search-icon"
             className="search-icon"
             onClick={toggleSearch}
           />
         </div>
-        <img src={user} alt="user-icon" />
-        <img src={bag} alt="bag-icon" />
+        <img src={userIcon} alt="user-icon" />
+        <img src={bagIcon} alt="bag-icon" />
       </div>
     </header>
   );
