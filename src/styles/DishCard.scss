@@ -1,0 +1,16 @@
+.dish-info{
+    background-color: #F9F4EA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1vh;
+    img{
+        width: 40px;
+        height: 31px;
+    }
+;
+}
+.dish-card{
+    display: flex;
+    flex-direction: column;
+}
