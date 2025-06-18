@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { searchIcon } from "../assets/icons";
+import '../styles/SearchSection.scss'
 function SearchSection() {
   const [showSearch, setShowSearch] = useState(false);
   const toggleSearch = () => {

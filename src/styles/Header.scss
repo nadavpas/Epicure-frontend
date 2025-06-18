@@ -17,37 +17,3 @@ header {
   align-items: center;
   gap: 1vw;
 }
-.search-section {
-  display: flex;
-  align-items: center;
-  flex-direction: row-reverse;
-  position: absolute;
-  padding-right: 3vw;
-  img {
-    position: absolute;
-  }
-  input {
-    position: absolute;
-    width: 410px;
-    height: 41px;
-  }
-}
-button {
-  background-color: white;
-  font-family: Helvetica;
-  font-weight: 200;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 1.92px;
-}
-.logo-text {
-  font-family: Helvetica;
-  font-size: 27px;
-  font-weight: 200;
-  line-height: 100%;
-  letter-spacing: 1.35px;
-}
-nav {
-  display: flex;
-  gap: 32px;
-}
