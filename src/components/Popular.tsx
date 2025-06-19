@@ -1,10 +1,11 @@
 import RestaurantCard from "./RestaurantCard";
 import "../styles/Populer.scss";
+import Rating from "./Rating";
 function Popular() {
   const cards_arr = [
-    { restaurant: "Claro", chef: " Ran Shmueli" },
-    { restaurant: "Capara Mio", chef: "Nadav" },
-    { restaurant: "M25", chef: "Sapir" },
+    { restaurant: "Claro", chef: " Ran Shmueli",rating:5 },
+    { restaurant: "Capara Mio", chef: "Nadav",rating:3 },
+    { restaurant: "M25", chef: "Sapir",rating:4 },
   ];
   return (
     <div className="popular-restaurants">
@@ -16,6 +17,7 @@ function Popular() {
                 key={card.restaurant}
                 restaurant={card.restaurant}
                 chef={card.chef}
+                rating={card.rating}
               />
           );
         })}
