@@ -7,7 +7,7 @@ function SearchSection() {
     setShowSearch((prev) => !prev);
   };
   return (
-    <div className="search-section">
+    <div className="search">
       {showSearch && (
         <input
           className="search-box"

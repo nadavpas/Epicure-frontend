@@ -1,19 +1,13 @@
-h3{
-    font-family:Helvetica;
-    font-weight: 200;
-    font-size: 27px;
-    letter-spacing: 1.97px;
-    width: 402px;
-    height: 80px;
-}
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     background-image:url('../assets/hero.svg');
-    width: 1440px;
+    width: 100vh;
     height: 696px;
-    top: 64px;
+    // top: 64px;
+    left: 0;
+    right: 0;
 }
 .hero-container{
     display: flex;
@@ -26,8 +20,8 @@ h3{
 }
 .search-section{
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 1vw;
     border: 1px solid  black;
     
     input{
