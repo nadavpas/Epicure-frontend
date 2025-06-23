@@ -2,7 +2,7 @@ import search from "../assets/search.svg";
 import "../styles/Hero.scss";
 function Hero() {
   return (
-    <div className="container">
+    <div className="hero-total-container">
       <div className="hero-container">
         <h3 className="text">
           Epicure works with the top chef restaurants in Tel Aviv

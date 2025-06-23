@@ -1,13 +1,13 @@
-.container{
+.hero-total-container{
     display: flex;
     align-items: center;
     justify-content: center;
     background-image:url('../assets/hero.svg');
-    width: 100vh;
-    height: 696px;
-    // top: 64px;
-    left: 0;
-    right: 0;
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .hero-container{
     display: flex;
