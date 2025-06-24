@@ -1,10 +1,10 @@
 import "./App.css";
-import ChefRestCard from "./components/ChefRestCard";
+import Weekly from "./components/Weekly";
 
 function App() {
   return (
     <>
-      <ChefRestCard name={'Mashya'}/>
+      <Weekly/>
     </>
   );
 }
