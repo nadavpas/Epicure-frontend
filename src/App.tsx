@@ -1,10 +1,10 @@
 import "./App.css";
-import Header from "./components/Header";
+import ChefCard from "./components/ChefCard";
 
 function App() {
   return (
     <>
-    <Header />
+      <ChefCard name="Eyal Shani" />
     </>
   );
 }
