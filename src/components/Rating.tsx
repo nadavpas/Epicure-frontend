@@ -1,3 +1,4 @@
+import { Fragment } from "react/jsx-runtime";
 import { default as StarsRate} from "../assets/Icons/StarsRate";
 interface RatingProps {
   rating: number;
@@ -9,13 +10,13 @@ function Rating({ rating }: RatingProps) {
       {Array.from({ length: 5 }).map((_, i) => {
         const isFull = i + 1 <= rating;
         return (
-          <>
+          <Fragment key={i}>
             {isFull ? (
-              <StarsRate fill={fill} key={i} />
+              <StarsRate fill={fill}  />
             ) : (
-              <StarsRate fill={"none"} key={i} />
+              <StarsRate fill={"none"}/>
             )}
-          </>
+          </Fragment>
         );
       })}
     </div>
