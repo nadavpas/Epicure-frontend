@@ -1,6 +1,6 @@
 import "../styles/Hero.scss";
-
-import { searchIcon } from "../assets/icons";
+import '../App.scss'
+import { searchIcon } from "../assets/Icons";
 
 const Hero:React.FC = () => {
   const RenderHeroSearch = () => {
@@ -15,9 +15,9 @@ const Hero:React.FC = () => {
     <div className="hero-total-container">
       <div className="hero-container">
         <div className="hero-text">
-          <h3 className="text">
+          <h1>
             Epicure works with the top chef restaurants in Tel Aviv
-          </h3>
+          </h1>
         </div>
         {RenderHeroSearch()}
       </div>

@@ -1,4 +1,4 @@
-import { userIcon } from "../assets/icons";
+import { userIcon } from "../assets/Icons";
 function UserToggle() {
   return <img src={userIcon} alt="user-icon" />;
 }

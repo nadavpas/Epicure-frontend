@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { searchIcon } from "../assets/icons";
+import { searchIcon } from "../assets/Icons";
 import '../styles/SearchSection.scss'
 function SearchSection() {
   const [showSearch, setShowSearch] = useState(false);

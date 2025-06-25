@@ -1,4 +1,4 @@
-import { logoIcon } from "../assets/icons"
+import { logoIcon } from "../assets/Icons"
 import '../styles/LogoSection.scss'
 function LogoSection(){
     return(
