@@ -3,9 +3,12 @@
     align-items: center;
     flex-direction: column;
     background-color: #f9f4ea;
+    width: 25.1vw;
+    gap: 1vh;
+    height: 23vh;
+}
+.dish{
     width: 26.32vw;
-    height: 169px;
-    gap: 8px;
 }
 .container{
     display: flex;
@@ -31,7 +34,4 @@ h4{
 }
 h5{
     margin: 0px;
-}
-img{
-    
 }
