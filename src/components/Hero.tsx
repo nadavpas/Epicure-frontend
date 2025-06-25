@@ -1,5 +1,5 @@
-import search from "../assets/search.svg";
 import "../styles/Hero.scss";
+import HeroSearch from "./HeroSearch";
 function Hero() {
   return (
     <div className="hero-total-container">
@@ -7,10 +7,7 @@ function Hero() {
         <h3 className="text">
           Epicure works with the top chef restaurants in Tel Aviv
         </h3>
-        <div className="search-section">
-          <img src={search} alt="SearchIcon" />
-          <input type="text" placeholder="Search for restaurant cuisine,chef" />
-        </div>
+        <HeroSearch />
       </div>
     </div>
   );
