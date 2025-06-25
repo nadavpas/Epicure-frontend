@@ -18,3 +18,42 @@ header {
   align-items: center;
   gap: 1vw;
 }
+.logo-section{
+    display: flex;
+    align-items: center;
+    span{
+        font-family: Helvetica;
+        font-weight: 200;
+        font-size: 1.8vw;
+        letter-spacing: 0.1vw;
+    }
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 0.1vw;
+  button {
+    background-color: white;
+    font-family: Helvetica;
+    font-weight: 200;
+    font-size: 1.4vw;
+    line-height: 100%;
+    letter-spacing: 0.2vw;
+  }
+}
+.search{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: absolute;
+  img {
+    position: absolute;
+    margin-right: 0.8vw;
+  }
+  input {
+    position: absolute;
+    width: 25vw;
+    height: 4vh;
+    margin-right: 0.6vw;
+  }
+}
