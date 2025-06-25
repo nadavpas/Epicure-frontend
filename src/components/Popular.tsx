@@ -13,6 +13,7 @@ function Popular() {
                 restaurant={rest.restaurant}
                 chef={rest.chef}
                 rating={rest.rating}
+                image={rest.image}
               />
           );
         })}

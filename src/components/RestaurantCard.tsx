@@ -1,4 +1,3 @@
-import claro from "../assets/images/restaurants/claro.svg";
 import "../styles/RestaurantCard.scss";
 import Rating from "./Rating";
 interface RestaurantProps {
@@ -6,12 +5,12 @@ interface RestaurantProps {
   restaurant: string;
   key: string;
   rating:number
-  // image: string
+  image: string
 }
-function RestaurantCard({ chef, restaurant,rating }: RestaurantProps) {
+function RestaurantCard({ chef, restaurant,rating , image}: RestaurantProps) {
   return (
     <div className="container">
-      <img src={claro} alt="dish" />
+      <img src={image} alt="dish" />
       <div className="info">
         <h3>{restaurant}</h3>
         <h4>{chef}</h4>
