@@ -4,7 +4,7 @@ import NavButtons from "./NavButtons";
 import SearchSection from "./SearchSection";
 import ShoppingcartToggle from "./ShoppingcartToggle";
 import UserToggle from "./UserToggle";
-function Header() {
+const Header: React.FC = () => {
   return (
     <header>
       <div className="left-section">
@@ -13,10 +13,10 @@ function Header() {
       </div>
       <div className="right-section">
         <SearchSection />
-        < UserToggle />
+        <UserToggle />
         <ShoppingcartToggle />
       </div>
     </header>
   );
-}
+};
 export default Header;

@@ -1,6 +1,6 @@
-import { logoIcon } from "../assets/icons"
+import { logoIcon } from '../assets/Icons'
 import '../styles/LogoSection.scss'
-function LogoSection(){
+const LogoSection:React.FC = () => {
     return(
         <div>
           <img src={logoIcon} alt="logo-icon" />

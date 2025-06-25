@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { searchIcon } from "../assets/icons";
-import '../styles/SearchSection.scss'
-function SearchSection() {
+import { searchIcon } from "../assets/Icons";
+import "../styles/SearchSection.scss";
+const SearchSection: React.FC = () => {
   const [showSearch, setShowSearch] = useState(false);
   const toggleSearch = () => {
     setShowSearch((prev) => !prev);
@@ -23,5 +23,5 @@ function SearchSection() {
       />
     </div>
   );
-}
+};
 export default SearchSection;
