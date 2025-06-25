@@ -1,4 +1,4 @@
-import claro from "../assets/claro.svg";
+import claro from "../assets/images/restaurants/claro.svg";
 import "../styles/RestaurantCard.scss";
 import Rating from "./Rating";
 interface RestaurantProps {
