@@ -4,9 +4,11 @@ function Hero() {
   return (
     <div className="hero-total-container">
       <div className="hero-container">
-        <h3 className="text">
-          Epicure works with the top chef restaurants in Tel Aviv
-        </h3>
+        <div className="hero-text">
+          <h3 className="text">
+            Epicure works with the top chef restaurants in Tel Aviv
+          </h3>
+        </div>
         <HeroSearch />
       </div>
     </div>
