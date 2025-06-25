@@ -1,4 +1,4 @@
-import { Star } from "../assets/Icons";
+import { default as StarsRate} from "../assets/Icons/StarsRate";
 interface RatingProps {
   rating: number;
 }
@@ -11,9 +11,9 @@ function Rating({ rating }: RatingProps) {
         return (
           <>
             {isFull ? (
-              <Star fill={fill} key={i} />
+              <StarsRate fill={fill} key={i} />
             ) : (
-              <Star fill={"none"} key={i} />
+              <StarsRate fill={"none"} key={i} />
             )}
           </>
         );
