@@ -8,7 +8,7 @@ function Hero() {
           Epicure works with the top chef restaurants in Tel Aviv
         </h3>
         <div className="search-section">
-          <img src={search} alt="" />
+          <img src={search} alt="SearchIcon" />
           <input type="text" placeholder="Search for restaurant cuisine,chef" />
         </div>
       </div>
