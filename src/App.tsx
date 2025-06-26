@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import SignatureDish from "./components/Signature-Dish/SignatureDish";
 
 function App() {
