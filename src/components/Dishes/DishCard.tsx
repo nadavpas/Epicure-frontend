@@ -1,4 +1,3 @@
-import dish from "../../assets/icon/dish.svg";
 import { ils, line, spicy, vegan, vegetarian } from "../../assets/icon";
 import "../../styles/DishCard.scss";
 interface DishCardProps {
@@ -6,16 +5,18 @@ interface DishCardProps {
   extra: "spicy" | "vegan" | "vegetarian";
   info: string;
   price: number;
+  image: string
 }
-function DishCard({ name, extra, info, price }: DishCardProps) {
+const DishCard:React.FC<DishCardProps> = ({ name, extra, info, price,image }) => {
   const extra_info = {
     spicy: spicy,
     vegan: vegan,
     vegetarian: vegetarian,
   };
+
   return (
     <div className="dish-card">
-      <img src={dish} alt="seed" />
+      <img src={image} alt="seed" />
       <div className="dish">
         <h1>{name}</h1>
         <img src={extra_info[extra]} alt="flavour" />

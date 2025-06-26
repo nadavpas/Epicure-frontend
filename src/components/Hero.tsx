@@ -1,12 +1,12 @@
 import "../styles/Hero.scss";
 
-import { searchIcon } from "../assets/Icons";
+import { search } from "../assets/icon";
 
 const Hero:React.FC = () => {
   const RenderHeroSearch = () => {
     return (
       <div className="search-section">
-        <img src={searchIcon} alt="SearchIcon" />
+        <img src={search} alt="SearchIcon" />
         <input type="text" placeholder="Search for restaurant cuisine,chef" />
       </div>
     );
