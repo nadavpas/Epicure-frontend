@@ -1,6 +1,6 @@
-import "../styles/Hero.scss";
+import "../../styles/Hero.scss";
 
-import { searchIcon } from "../assets/Icons";
+import { searchIcon } from "../../assets/Icons";
 
 const Hero:React.FC = () => {
   const RenderHeroSearch = () => {
