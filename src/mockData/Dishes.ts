@@ -4,4 +4,4 @@ const dishes = [{
     info: "Shrimps, Glass Noodles, Kemiri Nuts, Shallots,Lemon Grass, Magic Chili Brown Coconut",
     price: 98,
   }];
-export dishes
+export {dishes}

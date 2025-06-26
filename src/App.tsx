@@ -1,12 +1,12 @@
-import DishCard from "./components/Dishes/DishCard";
 import "./App.css";
+import SignatureDish from "./components/Signature-Dish/SignatureDish";
 
 function App() {
   
 
   return (
     <>
-      <DishCard {...dish} />
+      <SignatureDish />
     </>
   );
 }
