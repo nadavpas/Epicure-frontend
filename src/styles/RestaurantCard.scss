@@ -1,0 +1,34 @@
+.info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f4ea;
+    width: 26.4vw;
+    gap: 1vh;
+    height: 23vh;
+}
+.dish{
+    width: 26.32vw;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 26.32vw;
+}
+h3{
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: 3vw;
+    line-height: 3vw;
+    letter-spacing: 0.1vw;
+    margin: 0vh;
+    margin-top: 1.5vh;
+}
+h4{
+    font-family: Helvetica;
+    font-size: 1.6vw;
+    font-weight: 200;
+    line-height: 5vh;
+    letter-spacing: 0.1vw;
+    margin: 0vh;
+}

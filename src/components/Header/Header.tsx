@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { bagIcon, logoIcon, searchIcon, userIcon } from "../assets/Icons";
-import "../styles/Header.scss";
+import { bagIcon, logoIcon, searchIcon, userIcon } from "../../assets/Icons";
+import "../../styles/Header.scss";
 const Header: React.FC = () => {
   const [showSearch, setShowSearch] = useState(false);
   const toggleSearch = () => {

@@ -1,12 +1,14 @@
 import "./App.scss";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Popular from "./components/PopularRestaurants/Popular";
 
 function App() {
   return (
     <div className="app">
       <Header />
       <Hero />
+      <Popular />
     </div>
   );
 }
