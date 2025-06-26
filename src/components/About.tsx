@@ -1,4 +1,4 @@
-import { about,googlePlay,appStore } from "../assets/Icons";
+import { about,googlePlay,appStore } from "../assets/icons";
 import '../styles/About.scss'
 function About() {
   return (

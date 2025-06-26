@@ -1,8 +1,9 @@
 .about-container{
     display: flex;
     flex-direction: row;
-    gap: 20vw;
-    width: 100%;
+    gap: 40vw;
+    width: 100vw;
+    max-width: 100vw;
     height: 80vh;
     background-color: #FAFAFA;
     align-items: center;
@@ -16,7 +17,6 @@
     width: 40vw;
     gap: 1vh;
     text-align: left;
-
 }
 .article-text{
     font-family:  Helvetica;
