@@ -1,0 +1,51 @@
+.dish{
+    background-color: #F9F4EA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    width: 25vw;
+    img{
+        width: 5vw;
+        height: 4vh;
+    }
+}
+.dish-card{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 80vh;
+}
+.price{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    .ils{
+        width: 1.6vw;
+        height: 2.5vh;
+    }
+}
+.body-text{
+    font-family: Helvetica;
+        font-size: 1.5vw;
+        font-weight: 200;
+}
+h1{
+    margin:0;
+    font-family: Helvetica;
+    font-size: 2.4vw;
+    font-weight: 400;
+    line-height: 7vh;
+    letter-spacing: 0.15vw;
+}
+.dish-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 23vw;
+    height: 25vh;
+}
+.info-box{
+    width: 100%;
+    height: 18vh;
+}
