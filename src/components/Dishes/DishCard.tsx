@@ -1,6 +1,6 @@
 import { ils, lineIcon, spicy, vegan, vegetarian } from "../../assets/Icons";
 import "../../styles/DishCard.scss";
-import { ExtraType } from "../../utils/Enum";
+import { ExtraType } from "../../utils/enum";
 interface DishCardProps {
   name: string;
   extra: ExtraType;
