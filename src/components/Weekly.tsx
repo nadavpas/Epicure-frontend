@@ -10,10 +10,11 @@ function Weekly() {
         <div className="chef-info">
           <ChefCard name="Eyal Shani" />
           <span className="article-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            nisi eligendi ut totam mollitia quis, atque adipisci reiciendis
-            rerum aliquam distinctio, veritatis laboriosam et, rem amet saepe
-            modi sed laudantium.
+            Chef Yossi Shitrit has been living and breathing his culinary dreams
+            for more than two decades, including running the kitchen in his
+            first restaurant, the fondly-remembered Violet, located in Moshav
+            Udim. Shitrit's creativity and culinary acumen born of long
+            experience are expressed in the every detail of each and every dish.
           </span>
         </div>
         <h3>Yossi's Restaurants</h3>
