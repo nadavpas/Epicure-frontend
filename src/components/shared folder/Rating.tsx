@@ -1,6 +1,6 @@
 import { Fragment } from "react/jsx-runtime";
-import { default as StarsRate} from "../assets/Icons/StarsRate";
-import { Color } from "../utils/variable";
+import { default as StarsRate} from "../../assets/Icons/StarsRate";
+import { Color } from "../../utils/variable";
 interface RatingProps {
   rating: number;
 }

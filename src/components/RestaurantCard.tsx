@@ -1,5 +1,5 @@
 import "../styles/RestaurantCard.scss";
-import Rating from "./Rating";
+import Rating from "./shared folder/Rating";
 interface RestaurantProps {
   chef: string;
   restaurant: string;
