@@ -1,4 +1,4 @@
-import RestaurantCard from "../Restaurant-Section/RestaurantCard";
+import RestaurantCard from "../RestaurantSection/RestaurantCard";
 import "../../styles/Populer.scss";
 import { restaurants } from "../../mockData/Restaurants";
 import { more } from "../../assets/Icons";
