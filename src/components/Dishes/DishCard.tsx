@@ -13,6 +13,16 @@ const DishCard:React.FC<DishCardProps> = ({ name, extra, info, price,image }) =>
     vegan: vegan,
     vegetarian: vegetarian,
   };
+  const RenderPrice = () => {
+    return(
+      <div className="price">
+            <img src={line} alt="open-line" />
+            <img src={ils} alt="ils" className="ils" />
+            <span className="body-text"> {price} </span>
+            <img src={line} alt="closing-line" />
+          </div>
+    )
+  };
 
   return (
     <div className="dish-card">
@@ -22,12 +32,7 @@ const DishCard:React.FC<DishCardProps> = ({ name, extra, info, price,image }) =>
         <img src={extra_info[extra]} alt="flavour" />
         <div className="dish-info">
           <span className="body-text info-box">{info}</span>
-          <div className="price">
-            <img src={line} alt="open-line" />
-            <img src={ils} alt="ils" className="ils" />
-            <span className="body-text"> {price} </span>
-            <img src={line} alt="closing-line" />
-          </div>
+          {RenderPrice()}
         </div>
       </div>
     </div>
