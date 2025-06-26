@@ -1,17 +1,19 @@
-import DishCard from './components/DishCard'
-import './App.css'
+import DishCard from "./components/Dishes/DishCard";
+import "./App.css";
 
 function App() {
-const dish = {name:"Pad Ki Mao",
+  const dish = {
+    name: "Pad Ki Mao",
     extra: "spicy" as "spicy",
-    info:'Shrimps, Glass Noodles, Kemiri Nuts, Shallots,Lemon Grass, Magic Chili Brown Coconut',
-    price:98}
+    info: "Shrimps, Glass Noodles, Kemiri Nuts, Shallots,Lemon Grass, Magic Chili Brown Coconut",
+    price: 98,
+  };
 
   return (
     <>
-      <DishCard  {...dish}/>
+      <DishCard {...dish} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
