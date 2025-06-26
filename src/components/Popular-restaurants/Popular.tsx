@@ -1,7 +1,7 @@
-import RestaurantCard from "./RestaurantCard";
-import "../styles/Populer.scss";
-import { restaurants } from "../mockData/Restaurants";
-import { more } from "../assets/Icons";
+import RestaurantCard from "../Restaurant-Section/RestaurantCard";
+import "../../styles/Populer.scss";
+import { restaurants } from "../../mockData/Restaurants";
+import { more } from "../../assets/Icons";
 function Popular() {
   return (
     <div className="popular-restaurants">
@@ -20,8 +20,9 @@ function Popular() {
         })}
       </div>
       <div className="all-restaurants">
-        <button><img src={more} alt="more icon" /> All Restaurants </button>
-        
+        <button>
+          <img src={more} alt="more icon" /> All Restaurants{" "}
+        </button>
       </div>
     </div>
   );
