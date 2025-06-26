@@ -1,27 +1,33 @@
-import { ils, line, spicy, vegan, vegetarian } from "../../assets/icon";
+import { ils, lineIcon, spicy, vegan, vegetarian } from "../../assets/Icons";
 import "../../styles/DishCard.scss";
 interface DishCardProps {
   name: string;
   extra: "spicy" | "vegan" | "vegetarian";
   info: string;
   price: number;
-  image: string
+  image: string;
 }
-const DishCard:React.FC<DishCardProps> = ({ name, extra, info, price,image }) => {
+const DishCard: React.FC<DishCardProps> = ({
+  name,
+  extra,
+  info,
+  price,
+  image,
+}) => {
   const extra_info = {
     spicy: spicy,
     vegan: vegan,
     vegetarian: vegetarian,
   };
   const RenderPrice = () => {
-    return(
+    return (
       <div className="price">
-            <img src={line} alt="open-line" />
-            <img src={ils} alt="ils" className="ils" />
-            <span className="body-text"> {price} </span>
-            <img src={line} alt="closing-line" />
-          </div>
-    )
+        <img src={lineIcon} alt="open-line" />
+        <img src={ils} alt="ils" className="ils" />
+        <span className="body-text"> {price} </span>
+        <img src={lineIcon} alt="closing-line" />
+      </div>
+    );
   };
 
   return (
@@ -37,5 +43,5 @@ const DishCard:React.FC<DishCardProps> = ({ name, extra, info, price,image }) =>
       </div>
     </div>
   );
-}
+};
 export default DishCard;
