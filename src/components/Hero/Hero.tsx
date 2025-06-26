@@ -1,12 +1,12 @@
-import "../styles/Hero.scss";
+import "../../styles/Hero.scss";
 
-import { search } from "../assets/icon";
+import { searchIcon } from "../../assets/Icons";
 
 const Hero:React.FC = () => {
   const RenderHeroSearch = () => {
     return (
       <div className="search-section">
-        <img src={search} alt="SearchIcon" />
+        <img src={searchIcon} alt="SearchIcon" />
         <input type="text" placeholder="Search for restaurant cuisine,chef" />
       </div>
     );
@@ -15,9 +15,9 @@ const Hero:React.FC = () => {
     <div className="hero-total-container">
       <div className="hero-container">
         <div className="hero-text">
-          <h3 className="text">
+          <h1>
             Epicure works with the top chef restaurants in Tel Aviv
-          </h3>
+          </h1>
         </div>
         {RenderHeroSearch()}
       </div>

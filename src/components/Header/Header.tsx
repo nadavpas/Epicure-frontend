@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { bag, logo, search, user } from "../assets/icon";
-import "../styles/Header.scss";
+import { bagIcon, logoIcon, searchIcon, userIcon } from "../../assets/Icons";
+import "../../styles/Header.scss";
 const Header: React.FC = () => {
   const [showSearch, setShowSearch] = useState(false);
   const toggleSearch = () => {
@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           />
         )}
         <img
-          src={search}
+          src={searchIcon}
           alt="search-icon"
           className="search-icon"
           onClick={toggleSearch}
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
   const RenderLogoSection = () => {
     return (
       <div className="logo-section">
-        <img src={logo} alt="logo-icon" />
+        <img src={logoIcon} alt="logo-icon" />
         <span>EPICURE</span>
       </div>
     );
@@ -42,10 +42,10 @@ const Header: React.FC = () => {
     );
   }
   const UserToggle = () => {
-    return <img src={user} alt="user-icon" />;
+    return <img src={userIcon} alt="user-icon" />;
   }
   const ShoppingcartToggle = () => {
-    return <img src={bag} alt="bag-icon" />;
+    return <img src={bagIcon} alt="bag-icon" />;
   }
   return (
     <header>
