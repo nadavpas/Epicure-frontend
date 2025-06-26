@@ -8,7 +8,7 @@ const SignatureDish: React.FC = () => {
       <h2>SIGNATURE DISH OF:</h2>
       <div className="dishCard-container">
         {dishes.map((dish) => {
-          return <DishCard {...dish} />;
+          return <DishCard {...dish} key={dish.name}/>;
         })}
       </div>
     </div>
