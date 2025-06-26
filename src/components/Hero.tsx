@@ -1,5 +1,5 @@
 import "../styles/Hero.scss";
-import '../App.scss'
+
 import { searchIcon } from "../assets/Icons";
 
 const Hero:React.FC = () => {
