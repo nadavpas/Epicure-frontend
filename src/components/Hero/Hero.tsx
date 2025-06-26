@@ -1,5 +1,5 @@
 import "../../styles/Hero.scss";
-
+import '../../App.scss'
 import { searchIcon } from "../../assets/Icons";
 
 const Hero:React.FC = () => {
@@ -15,7 +15,7 @@ const Hero:React.FC = () => {
     <div className="hero-total-container">
       <div className="hero-container">
         <div className="hero-text">
-          <h1>
+          <h1 className="h1">
             Epicure works with the top chef restaurants in Tel Aviv
           </h1>
         </div>

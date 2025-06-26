@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   const toggleSearch = () => {
     setShowSearch((prev) => !prev);
   };
-  const SearchSection =()=> {
+  const SearchSection = () => {
     return (
       <div className="search">
         {showSearch && (
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
         />
       </div>
     );
-  }
+  };
   const RenderLogoSection = () => {
     return (
       <div className="logo-section">
@@ -32,7 +32,7 @@ const Header: React.FC = () => {
         <span>EPICURE</span>
       </div>
     );
-  }
+  };
   const RenderNavButtons = () => {
     return (
       <nav className="navbar">
@@ -40,13 +40,13 @@ const Header: React.FC = () => {
         <button>Chefs</button>
       </nav>
     );
-  }
+  };
   const UserToggle = () => {
     return <img src={userIcon} alt="user-icon" />;
-  }
+  };
   const ShoppingcartToggle = () => {
     return <img src={bagIcon} alt="bag-icon" />;
-  }
+  };
   return (
     <header>
       <div className="left-section">

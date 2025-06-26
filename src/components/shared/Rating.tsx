@@ -1,5 +1,5 @@
 import { Fragment } from "react/jsx-runtime";
-import { default as StarsRate} from "../../assets/Icons/StarsRate";
+import { default as StarsRate } from "../../assets/Icons/StarsRate";
 import { Color } from "../../utils/variable";
 interface RatingProps {
   rating: number;
@@ -12,9 +12,9 @@ function Rating({ rating }: RatingProps) {
         return (
           <Fragment key={i}>
             {isFull ? (
-              <StarsRate fill={Color.gold}  />
+              <StarsRate fill={Color.gold} />
             ) : (
-              <StarsRate fill={"none"}/>
+              <StarsRate fill={"none"} />
             )}
           </Fragment>
         );

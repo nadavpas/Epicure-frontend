@@ -18,13 +18,18 @@
   background-color: #ffffffe0;
 }
 .hero-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 24vw;
-    height: 80px;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24vw;
+  height: 80px;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+}
+.h1 {
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 1.6vw;
 }
 .search-section {
   display: flex;
