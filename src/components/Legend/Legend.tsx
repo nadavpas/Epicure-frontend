@@ -1,6 +1,6 @@
-import "../styles/Legend.scss";
+import "../../styles/Legend.scss";
 import IconCard from "./IconCard";
-function Legend() {
+const Legend: React.FC = () => {
   const icons = ["spicy", "vegan", "vegetarian"];
   return (
     <div className="legend-container">
@@ -12,5 +12,5 @@ function Legend() {
       </div>
     </div>
   );
-}
+};
 export default Legend;
