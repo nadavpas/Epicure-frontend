@@ -2,7 +2,17 @@ import RestaurantCard from "../Restaurant-Section/RestaurantCard";
 import "../../styles/Populer.scss";
 import { restaurants } from "../../mockData/Restaurants";
 import { more } from "../../assets/Icons";
-function Popular() {
+const Popular: React.FC = () => {
+  const RenderMoreButton = () => {
+    return (
+      <div className="all-restaurants">
+        <button>
+          <img src={more} alt="more icon" />
+          All Restaurants
+        </button>
+      </div>
+    );
+  };
   return (
     <div className="popular-restaurants">
       <h2>POPULAR RESTAURANT IN EPICURE:</h2>
@@ -19,12 +29,8 @@ function Popular() {
           );
         })}
       </div>
-      <div className="all-restaurants">
-        <button>
-          <img src={more} alt="more icon" /> All Restaurants{" "}
-        </button>
-      </div>
+      {RenderMoreButton()}
     </div>
   );
-}
+};
 export default Popular;
