@@ -1,4 +1,4 @@
-import { ils, lineIcon, spicy, vegan, vegetarian } from "../../assets/Icons";
+import { ils, lineIcon, spicy, vegan, vegetarian } from '../../assets/Icons'
 import "../../styles/DishCard.scss";
 import "../../App.scss";
 import { ExtraType } from "../../utils/enum";

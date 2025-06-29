@@ -1,5 +1,5 @@
 import "./App.scss";
-import About from "./components/About";
+import About from "./components/About/About";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Legend from "./components/Legend/Legend";
