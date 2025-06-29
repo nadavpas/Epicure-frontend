@@ -1,11 +1,12 @@
 import ChefCard from "./ChefCard";
-import "../styles/Weekly.scss";
+import "../../styles/Weekly.scss";
+import '../../App.scss'
 import ChefRestCard from "./ChefRestCard";
-import { restaurants } from "../mockData/Restaurants";
+import { restaurants } from "../../mockData/Restaurants";
 function Weekly() {
   return (
     <div className="weekly-container">
-      <h3>CHEF OF THE WEEK:</h3>
+      <h3 className="h3">CHEF OF THE WEEK:</h3>
       <div className="weekly-chef">
         <div className="chef-info">
           <ChefCard name="Eyal Shani" />
@@ -17,10 +18,10 @@ function Weekly() {
             experience are expressed in the every detail of each and every dish.
           </span>
         </div>
-        <h3>Yossi's Restaurants</h3>
+        <h3 className="h3">Yossi's Restaurants</h3>
         <div className="weekly-rest-cards">
           {restaurants.map((restaurant) => {
-            return <ChefRestCard name={restaurant.restaurant} image={restaurant.image} />;
+            return <ChefRestCard name={restaurant.restaurant} image={restaurant.image} key={restaurant.restaurant}/>;
           })}
         </div>
       </div>

@@ -5,15 +5,26 @@
   width: 100%;
   gap: 3.5vh;
 }
-h3{
+.h3{
     font-family:Helvetica;
     font-weight: 200;
-    font-size: 1.7vw;
+    font-size: 2vw;
     letter-spacing: 0.15vw;   
+}
+.card-text{
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 1.7vw;
+  letter-spacing: 0.15vw;
 }
 h2{
   font-family:Helvetica;
     font-weight: 200;
     font-size: 2vw;
     letter-spacing: 0.15vw; 
+}
+.article-text{
+  font-family: Helvetica;
+  font-weight: 200;
+  font-size: 1.3vw;
 }

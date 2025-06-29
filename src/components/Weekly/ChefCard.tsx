@@ -1,5 +1,5 @@
-import { eyalShani, asafGranit, avivMoshe } from "../assets/chefs";
-import '../styles/ChefCard.scss'
+import { eyalShani, asafGranit, avivMoshe } from "../../assets/chefs";
+import '../../styles/ChefCard.scss'
 interface ChefCardProps {
   name: "Eyal Shani" | "Asaf Granit" | "Aviv Moshe",
 }
