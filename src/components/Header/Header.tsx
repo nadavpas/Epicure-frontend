@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { bagIcon, logoIcon, searchIcon, userIcon } from "../../assets/Icons";
 import "../../styles/Header.scss";
-interface HeaderProps{
-  onChange: () => void,
+interface HeaderProps {
+  onChange: () => void;
 }
-const Header: React.FC<HeaderProps> = ({onChange}) => {
+const Header: React.FC<HeaderProps> = ({ onChange }) => {
   const [showSearch, setShowSearch] = useState(false);
-  
+
   const toggleSearch = () => {
     setShowSearch((prev) => !prev);
   };
@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({onChange}) => {
   };
   const ShoppingcartToggle = () => {
     return (
-      <div className="shoping-cart">
+      <div className="shopping-cart">
         <img src={bagIcon} alt="bag-icon" onClick={onChange} />
       </div>
     );
