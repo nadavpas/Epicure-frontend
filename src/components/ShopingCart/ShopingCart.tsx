@@ -1,5 +1,6 @@
 import "../../styles/ShoppingCart.scss";
 import "../../assets/Icons";
+import '../../App.scss'
 import { emptyBag } from "../../assets/Icons";
 const ShopingCart: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const ShopingCart: React.FC = () => {
         <img src={emptyBag} alt="empty-bag" />
       </div>
       <div className="button">
-        <button>ORDER HISTORY</button>
+        <button className="button-text">ORDER HISTORY</button>
       </div>
     </div>
   );
