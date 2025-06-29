@@ -1,0 +1,15 @@
+import about from './about-logo.svg'
+import appStore from './appStore.svg'
+import bagIcon from './bag.svg'
+import googlePlay from './googlePlay.svg'
+import ils from './ils.svg'
+import lineIcon from './Line.svg'
+import logoIcon from './logo.svg'
+import more from './more.svg'
+import searchIcon from './search.svg'
+import spicy from './spicy.svg'
+import userIcon from './user.svg'
+import vegan from './vegan.svg'
+import  vegetarian  from './vegetarian.svg'
+
+export {about,appStore,bagIcon,googlePlay,ils,lineIcon,logoIcon,more,searchIcon,spicy,userIcon,vegan,vegetarian,}

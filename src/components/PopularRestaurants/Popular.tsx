@@ -1,5 +1,6 @@
 import RestaurantCard from "../RestaurantSection/RestaurantCard";
 import "../../styles/Populer.scss";
+import '../../App.scss'
 import { restaurants } from "../../mockData/Restaurants";
 import { more } from "../../assets/Icons";
 const Popular: React.FC = () => {
@@ -15,7 +16,7 @@ const Popular: React.FC = () => {
   };
   return (
     <div className="popular-restaurants">
-      <h2>POPULAR RESTAURANT IN EPICURE:</h2>
+      <h2 className="h1">POPULAR RESTAURANT IN EPICURE:</h2>
       <div className="card-container">
         {restaurants.map((rest) => {
           return (

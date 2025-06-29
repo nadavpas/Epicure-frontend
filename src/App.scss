@@ -1,17 +1,37 @@
+$font: Helvetica;
 .app{
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap: 8vh;
 }
-h3{
-    font-family:Helvetica;
-    font-weight: 200;
-    font-size: 1.7vw;
-    letter-spacing: 1.97px;   
-}
-h1{
-  font-family: Helvetica;
+.h1{
+  font-family: $font;
   font-weight: 200;
-  font-size: 2.5vw;
+  font-size: 1.7vw;
+  letter-spacing: 0.1vw;
+}
+.h3{
+    font-family:$font;
+    font-weight: 400;
+    font-size: 2vw;
+    letter-spacing: 0.15vw;   
+}
+.card-text{
+  font-family: $font;
+  font-weight: 400;
+  font-size: 1.7vw;
+  letter-spacing: 0.15vw;
+}
+.h2{
+  font-family:$font;
+    font-weight: 200;
+    font-size: 1.5vw;
+    letter-spacing: 0.15vw; 
+}
+.body-text{
+  font-family: $font;
+  font-weight: 200;
+  font-size: 1.3vw;
 }
