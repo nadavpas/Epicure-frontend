@@ -1,5 +1,5 @@
 import { about,googlePlay,appStore } from "../assets/icons";
-import '../styles/About.scss'
+import '../styles/About.scss'   
 function About() {
   return (
     <div className="about-container">
