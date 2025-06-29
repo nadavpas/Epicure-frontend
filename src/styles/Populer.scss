@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 1vh;
+    margin-top: 4vh;
     button{
         display:flex;
         flex-direction: row-reverse;
@@ -15,6 +16,7 @@
     gap:1vw;
 }
 .all-restaurants{
+    margin-top: 3vh;
     display: flex;
     justify-content: flex-end;
     width: 100%;
