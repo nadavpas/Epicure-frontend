@@ -1,4 +1,4 @@
-import { claro, messa, kabkem } from "../assets/Images/restaurants";
+import { claro, messa, kabkem } from "../assets/images/restaurants";
 const restaurants = [
   { restaurant: "Claro", chef: " Ran Shmueli", rating: 5, image: claro },
   { restaurant: "Kab Kem", chef: "Yariv Malili", rating: 1, image: kabkem },

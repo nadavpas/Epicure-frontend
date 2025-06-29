@@ -1,7 +1,8 @@
-import { spicy, vegan, vegetarian } from "../../assets/icons/legend";
+import { spicy, vegan, vegetarian } from "../../assets/Icons/legend";
 import "../../styles/IconCard.scss";
+import type { ExtraType } from "../../utils/enum";
 interface IconCardProps {
-  name: "spicy" | "vegan" | "vegetarian";
+  name: ExtraType;
 }
 function IconCard({ name }: IconCardProps) {
   const icons = {
