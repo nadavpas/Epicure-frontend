@@ -1,0 +1,38 @@
+.shopping-cart-container{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    right: 0vw;
+    top: 7vh;
+    border: 0.1vw solid #80808038;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+    .button{
+        position: absolute;
+        bottom: 10vh;
+        button{
+            border: 0.1vw solid black;
+            border-radius: 0px;
+            background-color: white;
+        }
+    }
+}
+.empty-bag-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+    gap: 1vh;
+    img{
+        width: 2.5vw;
+    }
+    span{
+        font-family: Helvetica;
+        font-weight: 200;
+        font-size: 1.1vw;
+        text-align: center;
+    }
+}
