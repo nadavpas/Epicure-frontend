@@ -1,0 +1,25 @@
+.shopping-cart-container{
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
+    right: 0vw;
+    top: 7vh;
+    border: 0.1vw solid #80808038;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    flex-direction: column;
+    img{
+        width: 8vw;
+    }
+    .button{
+        position: absolute;
+        bottom: 10vh;
+        button{
+            border: 0.1vw solid black;
+            border-radius: 0px;
+            background-color: white;
+        }
+    }
+}

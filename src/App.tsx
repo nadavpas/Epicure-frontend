@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <div>
-        <Header onChange={toggleShowCart} showCart={showCart}/>
+        <Header onChange={toggleShowCart}/>
         <Hero showCart={showCart}/>
       </div>
       <Popular />
