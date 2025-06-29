@@ -1,4 +1,4 @@
-import { spicy, vegan, vegetarian } from "../../assets/icons/legend";
+import { spicy, vegan, vegetarian } from "../../assets/Icons/legend";
 import "../../styles/IconCard.scss";
 interface IconCardProps {
   name: "spicy" | "vegan" | "vegetarian";

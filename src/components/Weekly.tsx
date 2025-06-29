@@ -1,8 +1,8 @@
 import ChefCard from "./ChefCard";
 import "../styles/Weekly.scss";
 import ChefRestCard from "./ChefRestCard";
+import { restaurants } from "../mockData/Restaurants";
 function Weekly() {
-  const restaurants = ["Onza", "Kitchan Market", "Mashya"];
   return (
     <div className="weekly-container">
       <h3>CHEF OF THE WEEK:</h3>
@@ -20,7 +20,7 @@ function Weekly() {
         <h3>Yossi's Restaurants</h3>
         <div className="weekly-rest-cards">
           {restaurants.map((restaurant) => {
-            return <ChefRestCard name={restaurant} />;
+            return <ChefRestCard name={restaurant.restaurant} image={restaurant.image} />;
           })}
         </div>
       </div>
