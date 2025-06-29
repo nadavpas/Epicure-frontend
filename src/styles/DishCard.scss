@@ -6,6 +6,7 @@
     align-items: center;
     gap: 1vh;
     width: 25vw;
+    height: 130vh;
     img{
         width: 5vw;
         height: 4vh;
@@ -30,8 +31,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 18vw;
+    width: 22vw;
     height: 25vh;
+    white-space: 0.5vw;
 }
 .dish-name{
     width: 10vw;

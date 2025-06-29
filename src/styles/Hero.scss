@@ -13,7 +13,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 60vw;
+  width: 53vw;
   height: 28vh;
   background-color: #ffffffe0;
 }
@@ -21,8 +21,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24vw;
-  margin-bottom: 3vh;
+  width: 27vw;
+  margin-bottom: 1vh;
   margin-top: 3vh;
 }
 .search-section {
@@ -37,6 +37,8 @@
     border: 0;
     background-color: transparent;
     font-size: 1.6vw;
+    display: flex;
+    text-align: center;
   }
   img {
     width: 2.5vw;

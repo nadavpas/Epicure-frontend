@@ -1,7 +1,7 @@
 export enum ExtraType {
     SPICY = 'spicy',
+    VEG = 'vegetarian',
     VEGAN = 'vegan',
-    VEG = 'vegetarian'
 }
 export enum ChefNames { 
     EYALSHANI = "Eyal Shani" ,

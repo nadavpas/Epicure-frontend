@@ -4,18 +4,18 @@ $font: Helvetica;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  gap: 4vh;
+  gap: 6vh;
 }
 .h1{
   font-family: $font;
   font-weight: 200;
-  font-size: 1.7vw;
+  font-size: 2vw;
   letter-spacing: 0.1vw;
 }
 .h3{
     font-family:$font;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 2.5vw;
     letter-spacing: 0.15vw;   
 }
 .card-text{
@@ -27,15 +27,17 @@ $font: Helvetica;
 .h2{
   font-family:$font;
     font-weight: 200;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     letter-spacing: 0.15vw; 
 }
 .body-text{
   font-family: $font;
   font-weight: 200;
-  font-size: 1.3vw;
+  font-size: 1.4vw;
+  letter-spacing: 0.1vw;
 }
 .button-text{
   font-family: $font;
   font-weight: 400;
 }
+

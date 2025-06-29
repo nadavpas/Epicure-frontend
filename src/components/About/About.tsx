@@ -18,8 +18,8 @@ function About() {
   const RenderLogos = () => {
     return (
       <div className="logos">
-        <img src={googlePlay} alt="googlePlay" />
         <img src={appStore} alt="appStore" />
+        <img src={googlePlay} alt="googlePlay" />
       </div>
     );
   };
