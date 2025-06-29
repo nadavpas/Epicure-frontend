@@ -1,8 +1,11 @@
 import "../../styles/Hero.scss";
 import '../../App.scss'
 import { searchIcon } from "../../assets/Icons";
-
-const Hero:React.FC = () => {
+import ShopingCart from "../ShopingCart/ShopingCart";
+interface HeroProps{
+  showCart: boolean
+}
+const Hero:React.FC<HeroProps> = ({showCart}) => {
   const RenderHeroSearch = () => {
     return (
       <div className="search-section">
@@ -13,6 +16,7 @@ const Hero:React.FC = () => {
   };
   return (
     <div className="hero-total-container">
+        {showCart && <ShopingCart />}
       <div className="hero-container">
         <div className="hero-text">
           <h1 className="h1">
