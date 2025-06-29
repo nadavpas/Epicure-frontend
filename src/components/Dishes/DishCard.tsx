@@ -36,7 +36,7 @@ const DishCard: React.FC<DishCardProps> = ({
     <div className="dish-card">
       <img src={image} alt="seed" />
       <div className="dish">
-        <span className="h3"> {name} </span>
+        <span className="h3 dish-name"> {name} </span>
         <img src={extra_info[extra]} alt="flavour" />
         <div className="dish-info">
           <span className="body-text info-box">{info}</span>

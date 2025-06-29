@@ -2,6 +2,7 @@
     background-color: #F9F4EA;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     gap: 1vh;
     width: 25vw;
@@ -31,6 +32,9 @@
     flex-direction: column;
     width: 23vw;
     height: 25vh;
+}
+.dish-name{
+    width: 10vw;
 }
 .info-box{
     width: 100%;
