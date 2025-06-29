@@ -7,7 +7,7 @@ import { ChefNames } from "../../utils/enum";
 function Weekly() {
   const RenderArticleText = () => {
     return (
-      <span className="article-text">
+      <span className="body-text">
         Chef Yossi Shitrit has been living and breathing his culinary dreams for
         more than two decades, including running the kitchen in his first
         restaurant, the fondly-remembered Violet, located in Moshav Udim.
@@ -33,13 +33,13 @@ function Weekly() {
   };
   return (
     <div className="weekly-container">
-      <h3 className="h3">CHEF OF THE WEEK:</h3>
+      <h3 className="h1">CHEF OF THE WEEK:</h3>
       <div className="weekly-chef">
         <div className="chef-info">
           <ChefCard name={ChefNames.EYALSHANI} />
           {RenderArticleText()}
         </div>
-        <h3 className="h3">Yossi's Restaurants</h3>
+        <h3 className="h2">Yossi's Restaurants</h3>
         {RenderChefsRestaurants()}
       </div>
     </div>

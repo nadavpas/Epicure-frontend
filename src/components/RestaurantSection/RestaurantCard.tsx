@@ -1,5 +1,5 @@
 import "../../styles/RestaurantCard.scss";
-import Rating from "../Shared/Rating";
+import Rating from "../shared/Rating";
 interface RestaurantProps {
   chef: string;
   restaurant: string;
@@ -12,8 +12,8 @@ function RestaurantCard({ chef, restaurant, rating, image }: RestaurantProps) {
     <div className="container">
       <img src={image} alt="dish" />
       <div className="info">
-        <h3>{restaurant}</h3>
-        <h4>{chef}</h4>
+        <h3 className="h3">{restaurant}</h3>
+        <h4 className="body-text">{chef}</h4>
         <Rating rating={rating} />
       </div>
     </div>

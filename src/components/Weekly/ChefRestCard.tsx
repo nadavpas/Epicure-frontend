@@ -9,7 +9,7 @@ function ChefRestCard({ name,image }: ChefRestCardProps) {
     <div className="chef-rest-container">
       <img src={image} alt="dish" />
       <div className="text-container">
-        <h3 className="card-text">{name}</h3>
+        <h3 className="h3">{name}</h3>
       </div>
     </div>
   );
