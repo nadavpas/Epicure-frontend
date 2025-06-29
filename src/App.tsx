@@ -9,12 +9,14 @@ import Weekly from "./components/Weekly/Weekly";
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Hero />
+      <div>
+        <Header />
+        <Hero />
+      </div>
       <Popular />
       <SignatureDish />
       <Legend />
-      <Weekly/>
+      <Weekly />
     </div>
   );
 }
