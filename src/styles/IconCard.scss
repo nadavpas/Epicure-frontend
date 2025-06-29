@@ -1,0 +1,10 @@
+.iconcard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    img{
+        width: 7vw;
+        height: 7vh;
+    }
+}
