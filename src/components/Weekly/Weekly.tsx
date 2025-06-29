@@ -3,13 +3,14 @@ import "../../styles/Weekly.scss";
 import '../../App.scss'
 import ChefRestCard from "./ChefRestCard";
 import { restaurants } from "../../mockData/Restaurants";
+import {ChefNames} from "../../utils/enum";
 function Weekly() {
   return (
     <div className="weekly-container">
       <h3 className="h3">CHEF OF THE WEEK:</h3>
       <div className="weekly-chef">
         <div className="chef-info">
-          <ChefCard name="Eyal Shani" />
+          <ChefCard name={ChefNames.EYALSHANI} />
           <span className="article-text">
             Chef Yossi Shitrit has been living and breathing his culinary dreams
             for more than two decades, including running the kitchen in his

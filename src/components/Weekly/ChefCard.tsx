@@ -1,17 +1,13 @@
-import { eyalShani, asafGranit, avivMoshe } from "../../assets/chefs";
+import {Chefs} from '../../mockData/Chefs'
 import '../../styles/ChefCard.scss'
+import type { ChefNames } from '../../utils/enum';
 interface ChefCardProps {
-  name: "Eyal Shani" | "Asaf Granit" | "Aviv Moshe",
+  name: ChefNames
 }
 function ChefCard({name} : ChefCardProps) {
-  const images = {
-    'Eyal Shani': eyalShani,
-    'Asaf Granit': asafGranit,
-    'Aviv Moshe': avivMoshe,
-  };
   return (
     <div className="chef-container" >
-      <img src={images[name]} alt={name} />
+      <img src={Chefs[name]} alt={name} />
       <span className="image-label">{name}</span>
     </div>
   );
