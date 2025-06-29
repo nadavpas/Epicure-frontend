@@ -22,14 +22,8 @@
   align-items: center;
   justify-content: center;
   width: 24vw;
-  height: 80px;
   margin-bottom: 3vh;
   margin-top: 3vh;
-}
-.h1 {
-  font-family: Helvetica;
-  font-weight: 200;
-  font-size: 1.6vw;
 }
 .search-section {
   display: flex;
@@ -38,11 +32,11 @@
   border: 1px solid black;
 
   input {
-    width: 36vw;
+    width: 30vw;
     height: 6vh;
     border: 0;
     background-color: transparent;
-    font-size: larger;
+    font-size: 1.6vw;
   }
   img {
     width: 2.5vw;

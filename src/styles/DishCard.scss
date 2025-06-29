@@ -2,6 +2,7 @@
     background-color: #F9F4EA;
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     gap: 1vh;
     width: 25vw;
@@ -25,25 +26,15 @@
         height: 2.5vh;
     }
 }
-.body-text{
-    font-family: Helvetica;
-        font-size: 1.5vw;
-        font-weight: 200;
-}
-h1{
-    margin:0;
-    font-family: Helvetica;
-    font-size: 2.4vw;
-    font-weight: 400;
-    line-height: 7vh;
-    letter-spacing: 0.15vw;
-}
 .dish-info{
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 23vw;
+    width: 18vw;
     height: 25vh;
+}
+.dish-name{
+    width: 10vw;
 }
 .info-box{
     width: 100%;

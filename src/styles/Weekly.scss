@@ -1,0 +1,24 @@
+.weekly-rest-cards{
+    display: flex;
+    gap: 2vw;
+}
+.weekly-chef{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vh;
+}
+.chef-info{
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    text-align: left;
+    width: 75vw;
+}
+.weekly-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    width: 40vw;
+}

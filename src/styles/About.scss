@@ -1,0 +1,40 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30vw;
+    width: 100vw;
+    max-width: 100vw;
+    height: 60vh;
+    background-color: #FAFAFA;
+    align-items: center;
+    justify-content: center;
+}
+.about-info{
+    display: flex;
+    flex-direction: column;
+    margin: 2vw ;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 31vw;
+    gap: 1vh;
+    text-align: left;
+}
+.article-text{
+    font-family:  Helvetica;
+    font-weight: 200;
+    font-size: 1.7vw;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2vw;
+    img{
+        width: 10vw;
+    }
+}
+.about-logo{
+    img{
+        width: 10vw;
+    }
+}

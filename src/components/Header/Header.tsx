@@ -34,7 +34,7 @@ const Header: React.FC = () => {
     return (
       <div className="logo-section">
         <img src={logoIcon} alt="logo-icon" />
-        <span>EPICURE</span>
+        <span className="h1">EPICURE</span>
       </div>
     );
   };
