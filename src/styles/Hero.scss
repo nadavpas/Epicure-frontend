@@ -30,16 +30,13 @@
   flex-direction: row;
   align-items: center;
   border: 1px solid black;
-
+  gap: 2vw;
+  width: 35vw;
   input {
     width: 30vw;
     height: 6vh;
     border: 0;
     background-color: transparent;
-    font-size: 1.6vw;
-    display: flex;
-    text-align: center;
-    
   }
   input:focus{
     outline: none;

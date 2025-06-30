@@ -10,7 +10,7 @@ const Hero:React.FC<HeroProps> = ({showCart}) => {
     return (
       <div className="search-section">
         <img src={searchIcon} alt="SearchIcon" />
-        <input type="text" placeholder="Search for restaurant cuisine,chef" />
+        <input className='input-text' type="text" placeholder="Search for restaurant cuisine,chef" />
       </div>
     );
   };
