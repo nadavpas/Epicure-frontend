@@ -30,6 +30,12 @@ $font: Helvetica;
     font-size: 1.8vw;
     letter-spacing: 0.15vw; 
 }
+.h4{
+  font-family: $font;
+  font-size: 1.2vw;
+  letter-spacing: 0.1vw;
+  font-weight: 200;
+}
 .body-text{
   font-family: $font;
   font-weight: 200;
