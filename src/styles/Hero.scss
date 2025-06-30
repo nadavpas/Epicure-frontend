@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: center;
   width: 27vw;
-  margin-bottom: 1vh;
   margin-top: 3vh;
 }
 .search-section {
@@ -38,7 +37,7 @@
     border: 0;
     background-color: transparent;
   }
-  input:focus{
+  input:focus {
     outline: none;
   }
   img {

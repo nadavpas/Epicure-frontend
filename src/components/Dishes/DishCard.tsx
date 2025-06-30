@@ -1,4 +1,4 @@
-import { ils, lineIcon, spicy, vegan, vegetarian } from '../../assets/Icons'
+import { ils, lineIcon, spicy, vegan, vegetarian } from "../../assets/Icons";
 import "../../styles/DishCard.scss";
 import "../../App.scss";
 import { ExtraType } from "../../utils/enum";
@@ -39,7 +39,9 @@ const DishCard: React.FC<DishCardProps> = ({
         <span className="h3 dish-name"> {name} </span>
         <img src={extra_info[extra]} alt="flavour" />
         <div className="dish-info">
-          <span className="body-text info-box">{info}</span>
+          <div className="info-container">
+            <span className="body-text info-box">{info}</span>
+          </div>
           {RenderPrice()}
         </div>
       </div>
