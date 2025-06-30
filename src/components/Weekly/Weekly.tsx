@@ -7,7 +7,7 @@ import { ChefNames } from "../../utils/enum";
 function Weekly() {
   const RenderArticleText = () => {
     return (
-      <span className="body-text">
+      <span className="body-text chef-description">
         <br />
         Chef Yossi Shitrit has been living and breathing his culinary dreams for
         more than two decades, including running the kitchen in his first
