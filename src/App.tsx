@@ -8,6 +8,7 @@ import Legend from "./components/Legend/Legend";
 import Popular from "./components/PopularRestaurants/Popular";
 import SignatureDish from "./components/Signature-Dish/SignatureDish";
 import Weekly from "./components/Weekly/Weekly";
+import SignInForm from "./components/SignIn/SignInForm";
 
 function App() {
   const [showCart, setShowCart] = useState(false);
@@ -16,16 +17,7 @@ function App() {
   };
   return (
     <div className="app">
-      <div>
-        <Header onChange={toggleShowCart}/>
-        <Hero showCart={showCart}/>
-      </div>
-      <Popular />
-      <SignatureDish />
-      <Legend />
-      <Weekly />
-      <About />
-      <Footer />
+      <SignInForm />
     </div>
   );
 }
