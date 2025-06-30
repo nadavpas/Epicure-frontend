@@ -42,8 +42,8 @@ const DishCard: React.FC<DishCardProps> = ({
           <div className="info-container">
             <span className="body-text info-box">{info}</span>
           </div>
-          {RenderPrice()}
         </div>
+        {RenderPrice()}
       </div>
     </div>
   );

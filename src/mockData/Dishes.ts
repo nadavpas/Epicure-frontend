@@ -18,7 +18,7 @@ const dishes = [
   {
     name: "Smoked Pizza",
     extra: ExtraType.VEGAN,
-    info: "Basil dough, cashew butter, demi-glace,bison & radish",
+    info: "Basil dough, cashew \"butter\", demi-glace,bison & radish",
     price: 65,
     image: smokedPizza,
   },
