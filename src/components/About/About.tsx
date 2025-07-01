@@ -1,18 +1,21 @@
 import { about, googlePlay, appStore } from "../../assets/Icons";
 import "../../styles/About.scss";
-import '../../App.scss'
+import "../../App.scss";
 function About() {
   const RenderText = () => {
     return (
-      <span className="body-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-        reiciendis natus provident tempore, obcaecati, quae ab eius praesentium,
-        amet libero nam ipsa expedita veritatis. Obcaecati labore nesciunt
-        laborum eaque accusamus!
-        <br /><br />
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-        reiciendis natus provident tempore, obcaecati, quae
-      </span>
+      <div className="article-text">
+        <span className="body-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          reiciendis natus provident tempore, obcaecati, quae ab eius
+          praesentium, amet libero nam ipsa expedita veritatis. Obcaecati labore
+          nesciunt laborum eaque accusamus!
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+          reiciendis natus provident tempore, obcaecati, quae
+        </span>
+      </div>
     );
   };
   const RenderLogos = () => {
@@ -26,7 +29,7 @@ function About() {
   return (
     <div className="about-container">
       <div className="about-info">
-        <h3 className="h1">ABOUT US:</h3>
+        <span className="h1">ABOUT US:</span>
         {RenderText()}
         <br />
         {RenderLogos()}
