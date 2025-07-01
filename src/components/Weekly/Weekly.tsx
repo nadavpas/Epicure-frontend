@@ -37,10 +37,10 @@ function Weekly() {
       <h3 className="h1">CHEF OF THE WEEK:</h3>
       <div className="weekly-chef">
         <div className="chef-info">
-          <ChefCard name={ChefNames.EYALSHANI} />
+          <ChefCard name={ChefNames.YOSSISHITRIT} />
           {RenderArticleText()}
         </div>
-        <h3 className="h2">Yossi's Restaurants</h3>
+        <span className="h2">Yossi's Restaurants</span>
         {RenderChefsRestaurants()}
       </div>
     </div>

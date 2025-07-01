@@ -7,4 +7,5 @@ export enum ChefNames {
     EYALSHANI = "Eyal Shani" ,
     ASAFGRANIT = "Asaf Granit" ,
     AVIVMOSHE = "Aviv Moshe",
+    YOSSISHITRIT = 'Yossi Shitrit'
 }

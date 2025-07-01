@@ -1,13 +1,16 @@
 .text-container{
     background-color: #F9F4EA;
-    height: 16vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
-    padding: 1.5vw;
+    padding: 1.2vw;
     text-align: center;
 }
 .chef-rest-container{
     display: flex;
     flex-direction: column;
-    width: 13vw;
+    width: 16vw;
+    img{
+        height: 22.6vh;
+    }
 }
