@@ -1,5 +1,5 @@
-import sequelize from "./db.js";
-import {Restaurants, Chefs, Dishes} from './Models/index.js'
+import sequelize from "./db";
+import {Restaurant, Chef, Dish} from './Models/index'
 
 (async () => {
   try {
