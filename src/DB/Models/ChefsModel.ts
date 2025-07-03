@@ -1,6 +1,6 @@
-import sequelize from "../db.js";
+import sequelize from "../db";
 import { DataTypes, Model} from "sequelize";
-import type { Optional } from "sequelize";
+import type { CreationOptional, Optional } from "sequelize";
 
 interface ChefAttributes {
   id: string;
@@ -10,15 +10,18 @@ interface ChefAttributes {
   description: string;
 }
 
-type ChefCreationAttributes = Optional<ChefAttributes, "id">;
+interface ChefCreationAttributes extends Optional<ChefAttributes, "id">{}
 
 class Chef extends Model<ChefAttributes, ChefCreationAttributes> implements ChefAttributes {
-  public id!: string;
-  public firstName!: string;
-  public lastName!: string;
-  public image!: string;
-  public description!: string;
+  declare id: CreationOptional<string>;
+  declare firstName: string;
+  declare lastName: string;
+  declare image: string;
+  declare description: string;
+  declare readonly createdAt: CreationOptional<Date>;
+  declare readonly updatedAt: CreationOptional<Date>;
 }
+
 
 Chef.init(
   {

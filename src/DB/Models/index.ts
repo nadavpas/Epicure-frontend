@@ -1,6 +1,6 @@
-import Restaurant from "./RestaurantModel.ts";
-import Chef from "./ChefsModel.ts";
-import Dish from './DishesModel.ts'
+import Restaurant from "./RestaurantModel";
+import Chef from "./ChefsModel";
+import Dish from './DishesModel'
 
 Chef.hasMany(Restaurant, {foreignKey: 'ChefId', as: 'restaurants'});
 Restaurant.belongsTo(Chef, {foreignKey: 'ChefId', as: 'chef'});
